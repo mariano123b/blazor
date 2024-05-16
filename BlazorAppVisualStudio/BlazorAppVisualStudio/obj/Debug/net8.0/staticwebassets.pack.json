@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\fabia\\Documents\\BlazorAppVisualStudio-2024\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\fabia\\Documents\\BlazorAppVisualStudio-2024\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net8.0\\compressed\\07w3ggpa5r.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\fabia\\Documents\\BlazorAppVisualStudio-2024\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\fabia\\Documents\\BlazorAppVisualStudio-2024\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\fabia\\Documents\\BlazorAppVisualStudio-2024\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\fabia\\Documents\\BlazorAppVisualStudio-2024\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\fabia\\Documents\\BlazorAppVisualStudio-2024\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\fabia\\Documents\\BlazorAppVisualStudio-2024\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\fabia\\Documents\\BlazorAppVisualStudio-2024\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorAppVisualStudio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorAppVisualStudio.props",
+      "PackagePath": "build\\BlazorAppVisualStudio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorAppVisualStudio.props",
+      "PackagePath": "buildMultiTargeting\\BlazorAppVisualStudio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorAppVisualStudio.props",
+      "PackagePath": "buildTransitive\\BlazorAppVisualStudio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
