@@ -38,8 +38,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Lenovo/Desktop/blaizor/BlazorAppVisualStudio-2024/BlazorAppVSCode/Pages/EditarAlumnos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGFyQWx1bW5vcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/blaizor/BlazorAppVisualStudio-2024/BlazorAppVSCode/Pages/EditarCarrera.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGFyQ2FycmVyYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lenovo/Desktop/blaizor/BlazorAppVisualStudio-2024/BlazorAppVSCode/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/blaizor/BlazorAppVisualStudio-2024/BlazorAppVSCode/Pages/NuevaCarrera.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnVldmFDYXJyZXJhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/blaizor/BlazorAppVisualStudio-2024/BlazorAppVSCode/Pages/NuevoAlumnos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnVldm9BbHVtbm9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/Desktop/blaizor/BlazorAppVisualStudio-2024/BlazorAppVSCode/Pages/Peliculas.razor]
@@ -61,3 +77,7 @@ build_metadata.AdditionalFiles.CssScope = b-9kf9tugtab
 [C:/Users/Lenovo/Desktop/blaizor/BlazorAppVisualStudio-2024/BlazorAppVSCode/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-s4bd1khoxj
+
+[C:/Users/Lenovo/Desktop/blaizor/BlazorAppVisualStudio-2024/BlazorAppVSCode/Shared/ComponenteTitulo.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudGVUaXR1bG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-fb2n0u6k4t

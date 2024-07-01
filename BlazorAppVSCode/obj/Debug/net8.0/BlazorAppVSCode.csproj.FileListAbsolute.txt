@@ -2060,3 +2060,5 @@ C:\Users\Lenovo\Desktop\blaizor\BlazorAppVisualStudio-2024\BlazorAppVSCode\obj\D
 C:\Users\Lenovo\Desktop\blaizor\BlazorAppVisualStudio-2024\BlazorAppVSCode\obj\Debug\net8.0\refint\BlazorAppVSCode.dll
 C:\Users\Lenovo\Desktop\blaizor\BlazorAppVisualStudio-2024\BlazorAppVSCode\obj\Debug\net8.0\BlazorAppVSCode.pdb
 C:\Users\Lenovo\Desktop\blaizor\BlazorAppVisualStudio-2024\BlazorAppVSCode\obj\Debug\net8.0\ref\BlazorAppVSCode.dll
+C:\Users\Lenovo\Desktop\blaizor\BlazorAppVisualStudio-2024\BlazorAppVSCode\obj\Debug\net8.0\BlazorAppVSCode.sourcelink.json
+C:\Users\Lenovo\Desktop\blaizor\BlazorAppVisualStudio-2024\BlazorAppVSCode\obj\Debug\net8.0\scopedcss\Shared\ComponenteTitulo.razor.rz.scp.css
