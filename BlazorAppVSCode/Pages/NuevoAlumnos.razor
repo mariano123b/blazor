@@ -1,0 +1,64 @@
+﻿@page "/EditarAlumnos"
+@using BlazorAppVSCode.Shared
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<PageTitle>alumnos</PageTitle>
+
+<ComponenteTitulo Titulo="Alumnos"/>
+<!--<h1>alumnos</h1>-->
+
+<p>alumnos del sitio web.</p>
+
+@if (students == null)
+{
+    <p><em>Cargando...</em></p>
+}
+else
+{
+
+    <h3>Editando carrera @students.apellidoNombre</h3>
+    <EditForm Model="students" OnValidSubmit="GuardarAlumno">
+            <DataAnnotationsValidator />
+            <label class="form-control mb-2" for="txtAlumno">Alumno:</label>
+        <input class="form-control mb-2" type="text" @bind="students.apellidoNombre" />
+        <input class="form-control mb-2" type="text" @bind="students.telefono" />
+        <input class="form-control mb-2" type="text" @bind="students.direccion" />
+        <input class="form-control mb-2" type="text" @bind="students.email" />
+            <ValidationSummary />
+            <button class="btn btn-primary" type="submit">Guardar</button>
+            <button class="btn btn-primary mb-2" type="button" @onclick="Volver">cancelar</button>
+        </EditForm>
+}
+
+@code {
+    
+    public Alumno? students { get; set; }
+
+    protected override void OnInitialized()
+    {
+        students = new Alumno();
+    }
+    
+    public class Alumno
+    {
+       
+        public int Id { get; set; }
+        [Required(ErrorMessage = "carge todos los datos o ponga '--' para dato vacio")]
+        public string apellidoNombre { get; set; }=string.Empty;
+        public string telefono { get; set; }=string.Empty;
+        public string direccion { get; set; }=string.Empty;
+        public string email { get; set; }=string.Empty;
+    }
+    private async Task GuardarAlumno()
+    {
+        var response = await Http.PostAsJsonAsync($"https://incripcionesmariano.azurewebsites.net/api/apialumnos/", students);
+        NavigationManager.NavigateTo("/alumnos");
+
+    }
+    private async Task Volver()
+    {
+        NavigationManager.NavigateTo("/alumnos");
+
+    }
+}

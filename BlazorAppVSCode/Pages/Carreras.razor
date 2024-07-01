@@ -1,0 +1,60 @@
+﻿@page "/carreras"
+@inject HttpClient Http
+
+<PageTitle>carreras</PageTitle>
+
+<h1>carreras</h1>
+
+<p>carreras del sitio web.</p>
+
+@if (studies == null)
+{
+    <p><em>Cargando...</em></p>
+}
+else
+{
+    <NavLink class="nav-link" href="NuevaCarrera">
+        Nueva Carrera
+    </NavLink>
+    <table class="table">
+        
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var study in studies)
+            {
+                <tr>
+                    <th>@study.Id</th>
+                    <th>@study.nombre</th>
+                    <td>
+                        <NavLink class="nav-link" href=@($"EditarCarrera?idCarrera={study.Id}")>
+                            Editar
+                        </NavLink>
+                    </td>
+                </tr>
+                
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Study[]? studies;
+
+    protected override async Task OnInitializedAsync()
+    {
+        studies = await Http.GetFromJsonAsync<Study[]>("https://incripcionesmariano.azurewebsites.net/api/apiCarreras");
+    }
+    
+    public class Study
+    {
+       
+        public int Id { get; set; } 
+        public string nombre { get; set; }=string.Empty;
+        
+    };
+}

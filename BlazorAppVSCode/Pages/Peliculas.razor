@@ -26,10 +26,10 @@ else
             @foreach (var peli in pelis)
             {
                 <tr>
-                    <th>Nombre</th>
-                    <th>Genero</th>
-                    <th>Duracion</th>
-                     <th>Sinopsis</th>
+                    <th>@peli.Nombre</th>
+                    <th>@peli.Genero</th>
+                    <th>@peli.Duracion</th>
+                    <th>@peli.Sinopsis</th>
                 </tr>
             }
         </tbody>
@@ -47,7 +47,7 @@ else
     public class Pelicula
     {
        
-        public string _Id { get; set; } = string.Empty;
+        public int _Id { get; set; } 
         public string Nombre { get; set; } = string.Empty;
         public string Genero { get; set; } = string.Empty;
         public string Duracion { get; set; } = string.Empty;

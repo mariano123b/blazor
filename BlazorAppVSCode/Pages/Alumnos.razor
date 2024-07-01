@@ -1,0 +1,64 @@
+﻿@page "/alumnos"
+@using BlazorAppVSCode.Shared
+@inject HttpClient Http
+
+<PageTitle>alumnos</PageTitle>
+
+<ComponenteTitulo Titulo="Alumnos"/>
+<!--<h1>alumnos</h1>-->
+
+<p>alumnos del sitio web.</p>
+
+@if (students == null)
+{
+    <p><em>Cargando...</em></p>
+}
+else
+{
+    <NavLink class="nav-link" href="EditarAlumno">
+        Nueva alumno
+    </NavLink>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Abellido y Nombre</th>
+                <th>Telefono</th>
+                <th>Direccion</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var students in students)
+            {
+                <tr>
+                    <th>@students.apellidoNombre</th>
+                    <th>@students.telefono</th>
+                    <th>@students.direccion</th>
+                    <th>@students.email</th>
+                    <NavLink class="nav-link" href=@($"EditarAlumnos?idAlumno={students.Id}")>
+                            Editar
+                        </NavLink>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Alumno[]? students;
+
+    protected override async Task OnInitializedAsync()
+    {
+        students = await Http.GetFromJsonAsync<Alumno[]>("https://incripcionesmariano.azurewebsites.net/api/apialumnos/");
+    }
+    
+    public class Alumno
+    {
+       
+        public int Id { get; set; } 
+        public string apellidoNombre { get; set; }=string.Empty;
+        public string telefono { get; set; }=string.Empty;
+        public string direccion { get; set; }=string.Empty;
+        public string email { get; set; }=string.Empty;
+    };
+}

@@ -1,0 +1,50 @@
+﻿@page "/NuevaCarrera"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<!--<hi>se recibio el idCarrera numero = @idCarrera</hi>-->
+@if (carrera == null)
+{
+    <p><em>cargando...</em></p>
+}
+else
+{
+    <h3>Cargando Nueva carrera </h3>
+    <EditForm Model="carrera" OnValidSubmit="GuardarCarrera">
+        <DataAnnotationsValidator />
+        <label class="form-control mb-2" for="txtCarrera">Carrera:</label>
+        <input class="form-control mb-2" type="text" @bind="carrera.nombre" />
+       <ValidationSummary/>
+        <button class="btn btn-primary mb-2" type="submit">Guardar</button>
+        <button class="btn btn-primary mb-2" type="button" @onclick="Volver">cancelar</button>
+    </EditForm>
+}
+@code {
+    
+    public Carrera? carrera { get; set; }
+
+    
+    protected override void OnInitialized()
+    {
+        carrera = new Carrera();
+    }
+    public class Carrera
+    {
+
+        public int Id { get; set; } 
+        [Required(ErrorMessage = "el nombre debe cargarse obligatoriamente")]        
+        public string nombre { get; set; } = string.Empty;
+
+    }
+    private async Task GuardarCarrera()
+    {
+        var response = await Http.PostAsJsonAsync($"https://incripcionesmariano.azurewebsites.net/api/apiCarreras/", carrera);
+        NavigationManager.NavigateTo("/carreras");
+
+    }
+    private async Task Volver()
+    {
+        NavigationManager.NavigateTo("/carreras");
+
+    }
+}
