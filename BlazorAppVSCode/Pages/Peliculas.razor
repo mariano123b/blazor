@@ -1,35 +1,35 @@
-﻿@page "/weather"
+﻿@page "/peliculas"
 @inject HttpClient Http
 
-<PageTitle>Weather</PageTitle>
+<PageTitle>peliculas</PageTitle>
 
-<h1>Weather</h1>
+<h1>Peliculas</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
+<p>Los mejores estrenos del momento</p>
 
-@if (forecasts == null)
+@if (pelis == null)
 {
-    <p><em>Loading...</em></p>
+    <p><em>Cargando...</em></p>
 }
 else
 {
     <table class="table">
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
+                <th>Nombre</th>
+                <th>Genero</th>
+                <th>Duracion</th>
+                <th>Sinopsis</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var peli in pelis)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <th>Nombre</th>
+                    <th>Genero</th>
+                    <th>Duracion</th>
+                     <th>Sinopsis</th>
                 </tr>
             }
         </tbody>
@@ -37,21 +37,22 @@ else
 }
 
 @code {
-    private WeatherForecast[]? forecasts;
+    private Pelicula[]? pelis;
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        pelis = await Http.GetFromJsonAsync<Pelicula[]>("https://pelicilas-6c3b.restdb.io/rest/pelis?apikey=6467b0bb0b60fc42f4e197fe");
     }
-
-    public class WeatherForecast
+    
+    public class Pelicula
     {
-        public DateOnly Date { get; set; }
-
-        public int TemperatureC { get; set; }
-
-        public string? Summary { get; set; }
-
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-    }
+       
+        public string _Id { get; set; } = string.Empty;
+        public string Nombre { get; set; } = string.Empty;
+        public string Genero { get; set; } = string.Empty;
+        public string Duracion { get; set; } = string.Empty;
+        public string Trailer_url { get; set; } = string.Empty;
+        public string Sinopsis { get; set; } = string.Empty;
+        public string Portada_url { get; set; } = string.Empty;
+    };
 }
