@@ -3,20 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\pages\\nuevoalumnos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:pages\\nuevoalumnos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\pages\\alumnos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:pages\\alumnos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\services\\alumnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:services\\alumnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\blazorappvscode.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:blazorappvscode.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\wwwroot\\appsetings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:wwwroot\\appsetings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\pages\\nuevacarrera.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:pages\\nuevacarrera.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\pages\\peliculas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:pages\\peliculas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\pages\\alumnos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:pages\\alumnos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\shared\\componentetitulo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:shared\\componentetitulo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\pages\\nuevoalumnos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:pages\\nuevoalumnos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\pages\\peliculas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:pages\\peliculas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\pages\\carreras.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,28 +75,8 @@
       "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:pages\\editarcarrera.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\shared\\componentetitulo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:shared\\componentetitulo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -65,14 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\shared\\componentetitulo.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:shared\\componentetitulo.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\blazorappvscode.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:blazorappvscode.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|c:\\users\\lenovo\\desktop\\blaizor\\blazorappvisualstudio-2024\\blazorappvscode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA86968B-7572-4B2C-96B2-78AA39C68872}|BlazorAppVSCode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,19 +118,163 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlumnoService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Services\\AlumnoService.cs",
+              "RelativeDocumentMoniker": "Services\\AlumnoService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Services\\AlumnoService.cs",
+              "RelativeToolTip": "Services\\AlumnoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T05:00:10.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Models\\Alumno.cs",
+              "RelativeDocumentMoniker": "Models\\Alumno.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Models\\Alumno.cs",
+              "RelativeToolTip": "Models\\Alumno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T04:55:46.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appSetings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\wwwroot\\appSetings.json",
+              "RelativeDocumentMoniker": "wwwroot\\appSetings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\wwwroot\\appSetings.json",
+              "RelativeToolTip": "wwwroot\\appSetings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-04T04:45:31.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Carreras.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\Carreras.razor",
-              "RelativeDocumentMoniker": "Pages\\Carreras.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\Carreras.razor",
-              "RelativeToolTip": "Pages\\Carreras.razor",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAYAAAA",
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T17:10:53.366Z"
+              "WhenOpened": "2024-06-27T17:10:08.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Layout\\NavMenu.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T17:10:09.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Alumnos.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\Alumnos.razor",
+              "RelativeDocumentMoniker": "Pages\\Alumnos.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\Alumnos.razor",
+              "RelativeToolTip": "Pages\\Alumnos.razor",
+              "ViewState": "AQIAACkAAAAAAAAAAAAqwDgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T18:47:48.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NuevaCarrera.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\NuevaCarrera.razor",
+              "RelativeDocumentMoniker": "Pages\\NuevaCarrera.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\NuevaCarrera.razor",
+              "RelativeToolTip": "Pages\\NuevaCarrera.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T17:52:02.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T17:10:17.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlazorAppVSCode.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\BlazorAppVSCode.csproj",
+              "RelativeDocumentMoniker": "BlazorAppVSCode.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\BlazorAppVSCode.csproj",
+              "RelativeToolTip": "BlazorAppVSCode.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-01T04:40:58.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ComponenteTitulo.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Shared\\ComponenteTitulo.razor",
+              "RelativeDocumentMoniker": "Shared\\ComponenteTitulo.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Shared\\ComponenteTitulo.razor",
+              "RelativeToolTip": "Shared\\ComponenteTitulo.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T19:41:31.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T19:41:34.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\_Imports.razor",
+              "RelativeDocumentMoniker": "_Imports.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\_Imports.razor",
+              "RelativeToolTip": "_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T17:10:00.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "NuevoAlumnos.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\NuevoAlumnos.razor",
               "RelativeDocumentMoniker": "Pages\\NuevoAlumnos.razor",
@@ -131,19 +287,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Alumnos.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\Alumnos.razor",
-              "RelativeDocumentMoniker": "Pages\\Alumnos.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\Alumnos.razor",
-              "RelativeToolTip": "Pages\\Alumnos.razor",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAxAAAA",
+              "DocumentIndex": 14,
+              "Title": "Carreras.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\Carreras.razor",
+              "RelativeDocumentMoniker": "Pages\\Carreras.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\Carreras.razor",
+              "RelativeToolTip": "Pages\\Carreras.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-01T18:47:48.994Z"
+              "WhenOpened": "2024-06-27T17:10:53.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "EditarCarrera.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\EditarCarrera.razor",
               "RelativeDocumentMoniker": "Pages\\EditarCarrera.razor",
@@ -155,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "Pages\\Counter.razor",
@@ -167,19 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NuevaCarrera.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\NuevaCarrera.razor",
-              "RelativeDocumentMoniker": "Pages\\NuevaCarrera.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\NuevaCarrera.razor",
-              "RelativeToolTip": "Pages\\NuevaCarrera.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-01T17:52:02.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Pages\\Home.razor",
@@ -191,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "Peliculas.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\Peliculas.razor",
               "RelativeDocumentMoniker": "Pages\\Peliculas.razor",
@@ -203,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "EditarAlumnos.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\EditarAlumnos.razor",
               "RelativeDocumentMoniker": "Pages\\EditarAlumnos.razor",
@@ -215,67 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T17:10:08.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Layout\\NavMenu.razor",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T17:10:09.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\App.razor",
-              "RelativeDocumentMoniker": "App.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\App.razor",
-              "RelativeToolTip": "App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-01T19:41:34.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ComponenteTitulo.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Shared\\ComponenteTitulo.razor",
-              "RelativeDocumentMoniker": "Shared\\ComponenteTitulo.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Shared\\ComponenteTitulo.razor",
-              "RelativeToolTip": "Shared\\ComponenteTitulo.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-01T19:41:31.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\_Imports.razor",
-              "RelativeDocumentMoniker": "_Imports.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\_Imports.razor",
-              "RelativeToolTip": "_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T17:10:00.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Weather.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "Pages\\Weather.razor",
@@ -287,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "ComponenteTitulo.razor.css",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Shared\\ComponenteTitulo.razor.css",
               "RelativeDocumentMoniker": "Shared\\ComponenteTitulo.razor.css",
@@ -296,30 +380,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-07-01T04:47:44.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BlazorAppVSCode.csproj",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\BlazorAppVSCode.csproj",
-              "RelativeDocumentMoniker": "BlazorAppVSCode.csproj",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\BlazorAppVSCode.csproj",
-              "RelativeToolTip": "BlazorAppVSCode.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-01T04:40:58.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\blaizor\\BlazorAppVisualStudio-2024\\BlazorAppVSCode\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T17:10:17.066Z"
             }
           ]
         },

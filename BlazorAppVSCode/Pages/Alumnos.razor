@@ -1,6 +1,9 @@
 ﻿@page "/alumnos"
+@using BlazorAppVSCode.Services
 @using BlazorAppVSCode.Shared
-@inject HttpClient Http
+@inject IAlumnoServices AlumnoService
+@using BlazorAppVSCode.Models
+
 
 <PageTitle>alumnos</PageTitle>
 
@@ -51,17 +54,11 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        students = await Http.GetFromJsonAsync<Alumno[]>("https://incripcionesmariano.azurewebsites.net/api/apialumnos/");
+        students = await obtenerAlumnos();
     }
-    
-    public class Alumno
+    private async Task<List<Alumno>> obtenerAlumnos()
     {
-       
-        public int Id { get; set; } 
-        [Required]
-        public string apellidoNombre { get; set; }=string.Empty;
-        public string telefono { get; set; }=string.Empty;
-        public string direccion { get; set; }=string.Empty;
-        public string email { get; set; }=string.Empty;
-    };
+        return await AlumnoService.Get();
+    }
+
 }
