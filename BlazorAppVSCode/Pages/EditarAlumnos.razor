@@ -8,8 +8,6 @@
 <ComponenteTitulo Titulo="Alumnos"/>
 <!--<h1>alumnos</h1>-->
 
-<p>alumnos del sitio web.</p>
-
 @if (students == null)
 {
     <p><em>Cargando...</em></p>
@@ -27,6 +25,7 @@ else
         <input class="form-control mb-2" type="text" @bind="students.email" />
             <ValidationSummary />
             <button class="btn btn-primary" type="submit">Guardar</button>
+        <button class="btn btn-primary mb-2" type="button" @onclick="Volver">cancelar</button>
         </EditForm>
 }
 
@@ -53,6 +52,11 @@ else
     private async Task GuardarAlumno()
     {
         var response = await Http.PutAsJsonAsync($"https://incripcionesmariano.azurewebsites.net/api/apialumnos/{students?.Id}", idAlumno);
+        NavigationManager.NavigateTo("/alumnos");
+
+    }
+    private async Task Volver()
+    {
         NavigationManager.NavigateTo("/alumnos");
 
     }

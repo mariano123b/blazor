@@ -15,7 +15,7 @@
 }
 else
 {
-    <NavLink class="nav-link" href="EditarAlumno">
+    <NavLink class="nav-link" href="EditarAlumnos">
         Nueva alumno
     </NavLink>
     <table class="table">
@@ -35,9 +35,11 @@ else
                     <th>@students.telefono</th>
                     <th>@students.direccion</th>
                     <th>@students.email</th>
+                    <td>
                     <NavLink class="nav-link" href=@($"EditarAlumnos?idAlumno={students.Id}")>
                             Editar
                         </NavLink>
+                    </td>
                 </tr>
             }
         </tbody>
@@ -56,6 +58,7 @@ else
     {
        
         public int Id { get; set; } 
+        [Required]
         public string apellidoNombre { get; set; }=string.Empty;
         public string telefono { get; set; }=string.Empty;
         public string direccion { get; set; }=string.Empty;
